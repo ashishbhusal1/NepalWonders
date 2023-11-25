@@ -6,6 +6,7 @@ const options = [
   { value: "Kathmandu", label: "Kathmandu" },
 ];
 
+
 class SearchBar extends Component {
   state = {
     selectedOption: null,
@@ -19,9 +20,9 @@ class SearchBar extends Component {
     const { selectedOption } = this.state;
 
     return (
-      <div>
-        <div>
-          <div>
+      <div className="search-bar">
+        <div className="select-city-large">
+          <div className="select-div">
             <Select
               placeholder="Select City"
               value={selectedOption}
@@ -30,7 +31,8 @@ class SearchBar extends Component {
             />
           </div>
         </div>
-        <button>Lets Go</button>
+        <div className="select-experience-large"/>
+        <button id="go">Lets Go</button>
       </div>
     );
   }
