@@ -1,12 +1,12 @@
 import Link from "next/link";
 import classes from './MainNavigation.module.css';
-import SearchBar from "./Header/SearchBar";
+
 
 function MainNavigation(){
      return (
         <header className={classes.header}>
             <div className={classes.logo}>NepalWonders</div>
-            <SearchBar/>
+            
             <nav>
                 <ul>
                     <li>
