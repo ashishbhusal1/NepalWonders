@@ -1,9 +1,9 @@
 // our-domain.com/
 //Home Page
-import Head from "next/head";
-import PageList from "../components/places/PlaceList";
-import { MongoClient } from "mongodb";
-import { Fragment } from "react";
+// import Head from "next/head";
+// import PageList from "../components/places/PlaceList";
+// import { MongoClient } from "mongodb";
+// import { Fragment } from "react";
 
 // const DUMMY_PLACES = [
 //   {
@@ -24,40 +24,60 @@ import { Fragment } from "react";
 //   },
 // ];
 
-function HomePage(props) {
-  return (
-    <Fragment>
-      <Head>
-        <title>Places</title>
-        <meta
-          name="description"
-          content="Browse a variety of places to visit"
-        />
-      </Head>
-      <PageList places={props.places} />
-    </Fragment>
-  );
-}
-export async function getStaticProps() {
-  //fetch data from an api
-  const client = await MongoClient.connect(
-    "mongodb+srv://ashishbhusal:Nepal@nepal.dvmbtnu.mongodb.net/?retryWrites=true&w=majority"
-  );
-  const db = client.db();
-  const placesCollection = db.collection("places");
-  const places = await placesCollection.find().toArray();
-  client.close();
+// function HomePage(props) {
+//   return (
+//     <Fragment>
+//       <Head>
+//         <title>Home</title>
+//         <meta
+//           name="description"
+//           content="Browse a variety of places to visit"
+//         />
+//       </Head>
+//       <PageList places={props.places} />
+//     </Fragment>
+//   );
+// }
+// export async function getStaticProps() {
+//   //fetch data from an api
+//   const client = await MongoClient.connect(
+//     "mongodb+srv://ashishbhusal:Nepal@nepal.dvmbtnu.mongodb.net/?retryWrites=true&w=majority"
+//   );
+//   const db = client.db();
+//   const placesCollection = db.collection("places");
+//   const places = await placesCollection.find().toArray();
+//   client.close();
 
-  return {
-    props: {
-      places: places.map((place) => ({
-        title: place.title,
-        address: place.address,
-        image: place.image,
-        id: place._id.toString(),
-      })),
-    },
-    revalidate: 1,
-  };
+//   return {
+//     props: {
+//       places: places.map((place) => ({
+//         title: place.title,
+//         address: place.address,
+//         image: place.image,
+//         id: place._id.toString(),
+//       })),
+//     },
+//     revalidate: 1,
+//   };
+//}
+// Import React if you haven't already
+import React from 'react';
+
+function HomePage() {
+  return (
+    <div>
+      <h1>Welcome to Nepal Wonders!</h1>
+      <p>Explore the beauty of Nepal.</p>
+      <ul>
+        <li>Mount Everest</li>
+        <li>Pashupatinath Temple</li>
+        <li>...</li>
+      </ul>
+    </div>
+  );
 }
+
 export default HomePage;
+
+
+
