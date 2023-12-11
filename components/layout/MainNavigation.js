@@ -21,6 +21,9 @@ function MainNavigation(){
                     <li>
                         <Link href='#'>Contact Us</Link>
                     </li>
+                    <li>
+                        <Link href='/login'>Login</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
