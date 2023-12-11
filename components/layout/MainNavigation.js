@@ -22,11 +22,11 @@ function MainNavigation(){
                     </li>
                     
                     <li>
-                        <Link href='/login'>About Us</Link>
+                        <Link href='#'>About Us</Link>
                     </li>
                     
                     <li>
-                        <Link href='#'>Login</Link>
+                        <Link href='/login'>Login</Link>
                     </li>
                 </ul>
             </nav>
