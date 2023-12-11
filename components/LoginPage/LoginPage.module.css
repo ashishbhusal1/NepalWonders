@@ -1,29 +1,31 @@
 /* styles/Login.module.css */
 .container {
-    max-width: fit-content;
-    height: 100%; 
-    display: flex;
+  max-width: fit-content;
+  height: 100%; 
+  display: flex;
   
-    
-   
-   }
-  .leftColumn {
-    flex: auto;
-    width: 1000rem;
-   
-     
-    }
+
   
-   .rightColumn {
-    flex: 3000px; 
-     
+ 
+ }
+.leftColumn {
+  flex: auto;
+  width: 1000rem;
+  object-fit: fill;
+ 
    
-     background-color: #fffefe; /* Adjust the background color as needed */
-   }
-   .plane {
-    max-width: 300%;
-    margin-left: 360%;
-    padding-top: 20px;
-   }
+  }
+
+ .rightColumn {
+  flex: 3000px; 
    
-   
+ 
+   background-color: #fffefe; /* Adjust the background color as needed */
+ }
+ .plane {
+  max-width: 300%;
+  margin-left: 360%;
+  padding-top: 20px;
+ }
+ 
+ 
