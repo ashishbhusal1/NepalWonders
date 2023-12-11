@@ -22,7 +22,7 @@ function MainNavigation(){
                     </li>
                     
                     <li>
-                        <Link href='#'>About Us</Link>
+                        <Link href='/login'>About Us</Link>
                     </li>
                     
                     <li>
