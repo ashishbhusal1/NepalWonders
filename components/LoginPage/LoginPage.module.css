@@ -1,18 +1,29 @@
 /* styles/Login.module.css */
 .container {
-    width: 2080px;
-    height: 720px; 
+    max-width: fit-content;
+    height: 100%; 
     display: flex;
-    justify-content: left;
-    align-items: left; 
-    overflow: hidden; 
-  }
+  
+    
+   
+   }
   .leftColumn {
-    flex: 1;
-  }
+    flex: auto;
+    width: 1000rem;
+   
+     
+    }
   
    .rightColumn {
-    flex: 1;
-    padding: 20px;
-    background-color: #e0e0e0; /* Adjust the background color as needed */
+    flex: 3000px; 
+     
+   
+     background-color: #fffefe; /* Adjust the background color as needed */
    }
+   .plane {
+    max-width: 300%;
+    margin-left: 360%;
+    padding-top: 20px;
+   }
+   
+   
