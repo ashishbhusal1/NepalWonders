@@ -1,0 +1,279 @@
+.signupPage {
+    background-image: url('/signup.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 765px;
+    position: relative;
+    width: 1367px;
+}
+
+.signupPage .overlapGroup {
+    background-image: url('/backgroundwhite.svg');
+    background-size: 100% 100%;
+    height: 765px;
+    left: 720px;
+    position: relative;
+    width: 651px;
+}
+
+.signupPage .signUp {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 35.58px;
+    left: 121px;
+    position: absolute;
+    top: 472px;
+}
+
+.signupPage .button {
+    all: unset;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 6.78px;
+    position: relative;
+}
+
+.signupPage .signUpButton {
+    align-items: flex-end;
+    background-color: #009ee2;
+    border-radius: 25.42px;
+    display: flex;
+    flex-direction: column;
+    height: 50.84px;
+    padding: 14.4px 154.2px;
+    position: relative;
+    width: 419.39px;
+}
+
+.signupPage .textWrapper {
+    color: #ffffff;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 21.2px;
+    font-weight: 700;
+    height: 21.18px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.85px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 110.14px;
+}
+
+.signupPage .orSignUpWith {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.signupPage .line {
+    height: 1px;
+    position: relative;
+    width: 67.78px;
+}
+
+.signupPage .orSignUpWith2 {
+    color: #000000f2;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 14.4px;
+    font-weight: 500;
+    height: 16.1px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.85px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 150.81px;
+}
+
+.signupPage .group {
+    height: 54px;
+    position: relative;
+    width: 305px;
+}
+
+.signupPage .googleLogoWrapper {
+    background-color: #e6f1f4;
+    border-radius: 9px;
+    height: 54px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 95px;
+}
+
+.signupPage .googleLogo {
+    height: 24px;
+    left: 36px;
+    position: absolute;
+    top: 15px;
+    width: 24px;
+}
+
+.signupPage .XMLIDwrapper {
+    background-color: #e6f1f4;
+    border-radius: 9px;
+    height: 54px;
+    left: 105px;
+    position: absolute;
+    top: 0;
+    width: 95px;
+}
+
+.signupPage .XMLID {
+    height: 24px;
+    left: 35px;
+    position: absolute;
+    top: 15px;
+    width: 24px;
+}
+
+.signupPage .iconAwesomeAppleWrapper {
+    background-color: #e6f1f4;
+    border-radius: 9px;
+    height: 54px;
+    left: 210px;
+    position: absolute;
+    top: 0;
+    width: 95px;
+}
+
+.signupPage .iconAwesomeApple {
+    height: 24px;
+    left: 37px;
+    position: absolute;
+    top: 15px;
+    width: 20px;
+}
+
+.signupPage .alreadyHaveAn {
+    color: transparent;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    height: 22.03px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: 305.01px;
+}
+
+.signupPage .span {
+    color: #000000f2;
+}
+
+.signupPage .textWrapper2 {
+    color: #009ee2;
+}
+
+.signupPage .form2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 27.11px;
+    left: 117px;
+    position: absolute;
+    top: 156px;
+}
+
+.signupPage .textWrapper3 {
+    color: #009ee2;
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-size: 25.4px;
+    font-weight: 800;
+    height: 31.35px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.85px;
+    position: relative;
+    width: 231.3px;
+}
+
+.signupPage .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20.33px;
+    position: relative;
+}
+
+.signupPage .form3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 21.18px;
+    position: relative;
+}
+
+.signupPage .formInstance {
+    flex: 0 0 auto !important;
+    width: 418.54px !important;
+}
+
+.signupPage .designComponentInstanceNode {
+    border-bottom-width: 0.85px !important;
+    border-color: #000000 !important;
+    padding: 10.17px 13.56px !important;
+    width: 418.54px !important;
+}
+
+.signupPage .form4 {
+    color: #000000 !important;
+    font-size: 13.6px !important;
+}
+
+.signupPage .form5 {
+    height: 20.33px !important;
+    width: 20.33px !important;
+}
+
+.signupPage .form6 {
+    border-bottom-width: 0.85px !important;
+    padding: 10.17px 13.56px !important;
+    width: 418.54px !important;
+}
+
+.signupPage .privacyPolicy {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 6.78px;
+    position: relative;
+}
+
+.signupPage .tickSquare {
+    height: 16.1px;
+    position: relative;
+    width: 16.1px;
+}
+
+.signupPage .iAcceptTheTerms {
+    color: transparent;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 11.9px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.85px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.signupPage .textWrapper4 {
+    color: #6a6a6a;
+}
+
+.signupPage .textWrapper5 {
+    color: #009ee2;
+    text-decoration: underline;
+}

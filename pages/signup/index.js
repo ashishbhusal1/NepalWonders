@@ -1,8 +1,7 @@
-import LoginPage from '../../components/LoginPage/LoginPage';
+import SignupPage from "../../components/SignupPage/SignupPage";
 
-function SignupPages (){
-    return (
-        <SignupPage />
-    )
+
+function SignupPages() {
+  return <SignupPage />;
 }
 export default SignupPages;
