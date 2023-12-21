@@ -1,0 +1,126 @@
+.bytesizeheartIcon1 {
+  position: absolute;
+  top: 17.7px;
+  left: 290px;
+  width: 35.4px;
+  height: 35.4px;
+  overflow: hidden;
+}
+.image19Icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 568px;
+  height: 378.7px;
+  object-fit: cover;
+}
+.bytesizeheartParent {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 23.23px;
+  overflow: hidden;
+  background-image: url("/frame-31@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.domesticFlights {
+  position: relative;
+  opacity: 0.5;
+}
+.hugeSavingsOn1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 343.2px;
+  flex-shrink: 0;
+}
+.hugeSavingsOnFlightWithTrWrapper {
+  width: 343.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.8;
+}
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 26.57px;
+}
+.domesticFlightsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.43px;
+}
+.bookDomesticFlights1 {
+  position: relative;
+  display: inline-block;
+  width: 356.5px;
+  height: 44.3px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.bookDomesticFlightsStartingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookNow {
+  position: relative;
+}
+.bookNowWrapper {
+  border-radius: 35.42px;
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  padding: 17.712465286254883px 35.424930572509766px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: var(--color-white);
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17.71px;
+}
+.frameParent {
+  width: 726.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26.57px;
+}
+.frameWrapper {
+  position: absolute;
+  top: 0px;
+  left: 132.8px;
+  border-radius: 17.71px;
+  background-color: var(--color-white);
+  box-shadow: 0px 4.4px 17.71px rgba(158, 158, 158, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: 26.56869888305664px 17.712465286254883px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 17.71px;
+  color: var(--color-black);
+  font-family: var(--netflix-sans-medium-26);
+}

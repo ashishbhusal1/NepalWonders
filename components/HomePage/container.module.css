@@ -1,0 +1,81 @@
+.image4Icon1 {
+  position: relative;
+  width: 35.4px;
+  height: 35.4px;
+  object-fit: cover;
+  opacity: 0.4;
+}
+.beaches {
+  position: relative;
+  opacity: 0.4;
+}
+.image4Parent {
+  width: 86.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17.71px;
+}
+.image3Icon1 {
+  position: relative;
+  width: 35.8px;
+  height: 35.4px;
+  object-fit: cover;
+  opacity: 0.4;
+}
+.image3Parent {
+  width: 89.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17.71px;
+}
+.image13Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17.71px;
+}
+.image12Parent {
+  width: 77.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17.71px;
+}
+.frameGroup {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1246.5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameChild {
+  position: absolute;
+  top: 89.7px;
+  left: -1.1px;
+  border-top: 2.2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 88.6px;
+  height: 2.2px;
+  opacity: 0;
+}
+.frameParent {
+  position: absolute;
+  top: 553.5px;
+  left: 132.8px;
+  width: 1246.5px;
+  height: 90.8px;
+  text-align: left;
+  font-size: 17.71px;
+  color: var(--color-white);
+  font-family: var(--font-helvetica);
+}

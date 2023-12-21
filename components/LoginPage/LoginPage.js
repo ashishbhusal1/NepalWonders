@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
 
-const HomePage = () => {
+const LoginPage = () => {
   return (
     <div className={classes.container}>
       <div className={classes.div}>
@@ -97,4 +97,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default LoginPage;

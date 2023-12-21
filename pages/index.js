@@ -61,21 +61,86 @@
 //   };
 //}
 // Import React if you haven't already
-import React from 'react';
+// import React from 'react';
 
-function HomePage() {
+// function HomePage() {
+//   return (
+//     <div>
+//       <h1>Welcome to Nepal Wonders!</h1>
+//       <p>Explore the beauty of Nepal.</p>
+//       <ul>
+//         <li>Mount Everest</li>
+//         <li>Pashupatinath Temple</li>
+//         <li>...</li>
+//       </ul>
+//     </div>
+//   );
+// }
+
+// export default HomePage;
+import Container from '../components/HomePage/container';
+import SearchFormContainer from "../components/HomePage/search-form-container";
+import TransactionCard from "../components/HomePage/transaction-card";
+import SectionCard from "../components/HomePage/section-card";
+import OffersSection from "../components/HomePage/offers-section";
+import CommunitySection from "../components/HomePage/community-section";
+import Header from "../components/HomePage/header";
+import styles from "./index.module.css";
+const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome to Nepal Wonders!</h1>
-      <p>Explore the beauty of Nepal.</p>
-      <ul>
-        <li>Mount Everest</li>
-        <li>Pashupatinath Temple</li>
-        <li>...</li>
-      </ul>
+    <div className={styles.image1Parent}>
+      <img className={styles.image1Icon} alt="" src="/image-1@2x.png" />
+      <Container />
+      <div className={styles.frameChild} />
+      <SearchFormContainer />
+      <b className={styles.theWholeWorld1}>The whole world awaits.</b>
+      <b className={styles.topCategories}>Top categories</b>
+      <div className={styles.image21Parent}>
+        <img className={styles.image21Icon} alt="" src="/image-21@2x.png" />
+        <div className={styles.frameItem} />
+        <div className={styles.frameInner} />
+      </div>
+      <TransactionCard />
+      <div className={styles.frameParent}>
+        <SectionCard
+          topVacationDestinations="Top Vacation Destinations"
+          image18="/image-18@2x.png"
+          baliIndonasia="Bali, Indonesia"
+          image181="/image-181@2x.png"
+          kerryIreland="Kerry, Ireland"
+          image182="/image-182@2x.png"
+          sydneyAustralia="Sydney, Australia"
+          image183="/image-183@2x.png"
+          parisFrance="Paris, France"
+        />
+        <OffersSection />
+        <SectionCard
+          topVacationDestinations="Browse by property type"
+          image18="/image-184@2x.png"
+          baliIndonasia="Hotels"
+          image181="/image-185@2x.png"
+          kerryIreland="Apartments"
+          image182="/image-186@2x.png"
+          sydneyAustralia="Resorts"
+          image183="/image-187@2x.png"
+          parisFrance="Villas"
+          propColor="#000"
+        />
+        <div className={styles.image20Parent}>
+          <img className={styles.image20Icon} alt="" src="/image-20@2x.png" />
+          <div className={styles.ourProfessionalAdvisors1}>
+            Our professional advisors can craft your perfect itinerary
+          </div>
+          <b className={styles.planYourTrip1}>
+            Plan your trip with travel expert
+          </b>
+        </div>
+        <CommunitySection />
+      </div>
+      <Header />
     </div>
   );
-}
+};
 
 export default HomePage;
 

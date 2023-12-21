@@ -1,0 +1,17 @@
+.hizmetKodu {
+  position: relative;
+  font-weight: 500;
+}
+.hizmetkodubutton {
+  position: relative;
+  border: 1px solid var(--gray);
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--netflix-sans-medium-26-size);
+  color: var(--gray);
+  font-family: var(--netflix-sans-medium-26);
+}

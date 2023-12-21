@@ -1,0 +1,56 @@
+.frameChild {
+  position: relative;
+  border-radius: 8.86px;
+  width: 343.2px;
+  height: 221.4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.india {
+  position: relative;
+}
+.indiaWrapper {
+  width: 343.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.8;
+  font-size: 26.57px;
+}
+.travelCommunity {
+  position: relative;
+  opacity: 0.5;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8.86px;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  position: absolute;
+  top: 0px;
+  left: 132.8px;
+  border-radius: 17.71px;
+  background-color: var(--color-white);
+  box-shadow: 0px 4.4px 17.71px rgba(158, 158, 158, 0.25);
+  display: flex;
+  flex-direction: column;
+  padding: 17.712465286254883px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26.57px;
+  text-align: left;
+  font-size: 17.71px;
+  color: var(--color-black);
+  font-family: var(--netflix-sans-medium-26);
+}

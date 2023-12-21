@@ -1,0 +1,52 @@
+.trxvl {
+  position: relative;
+}
+.home {
+  position: relative;
+  opacity: 0.7;
+}
+.homeWrapper {
+  border-bottom: 1.1px solid var(--color-white);
+  display: flex;
+  flex-direction: row;
+  padding: 8.856232643127441px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.staysWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 8.856232643127441px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 26.57px;
+  font-size: 17.71px;
+}
+.trxvlParent {
+  position: absolute;
+  top: 26.6px;
+  left: 52px;
+  width: 1408.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameWrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-gray-300);
+  width: 1512.2px;
+  height: 94.1px;
+  text-align: left;
+  font-size: 35.42px;
+  color: var(--color-white);
+  font-family: var(--font-helvetica);
+}

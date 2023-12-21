@@ -1,0 +1,69 @@
+.akarIconssearch1 {
+  position: relative;
+  width: 22.1px;
+  height: 22.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+.akarIconssearchParent {
+  width: 418.5px;
+  display: flex;
+  flex-direction: row;
+  padding: 13.28434944152832px 8.856232643127441px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8.86px;
+}
+.checkIn {
+  position: relative;
+  opacity: 0.7;
+}
+.akarIconscalendarParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 13.28434944152832px 8.856232643127441px;
+  align-items: center;
+  justify-content: center;
+  gap: 8.86px;
+}
+.searchWrapper {
+  flex: 1;
+  border-radius: 35.42px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  padding: 13.28434944152832px 35.424930572509766px;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-royalblue);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 35.42px;
+}
+.frameWrapper {
+  position: absolute;
+  top: 366.4px;
+  left: 132.8px;
+  border-radius: 17.71px;
+  background-color: var(--color-gray-200);
+  backdrop-filter: blur(35.42px);
+  width: 1246.5px;
+  display: flex;
+  flex-direction: column;
+  padding: 8.856232643127441px 17.712465286254883px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 17.71px;
+  color: var(--color-white);
+  font-family: var(--font-helvetica);
+}

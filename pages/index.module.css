@@ -1,0 +1,112 @@
+.image1Icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1512.2px;
+    height: 931.9px;
+    object-fit: cover;
+  }
+  .frameChild {
+    position: absolute;
+    top: 817.9px;
+    left: 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff 89.58%);
+    width: 1512.2px;
+    height: 116.2px;
+    overflow: hidden;
+  }
+  .theWholeWorld1 {
+    position: absolute;
+    top: 138.4px;
+    left: 132.8px;
+    font-size: 79.71px;
+    display: inline-block;
+    width: 840.2px;
+  }
+  .topCategories {
+    position: absolute;
+    top: 477.1px;
+    left: 132.8px;
+  }
+  .image21Icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1512.2px;
+    height: 601.9px;
+    object-fit: cover;
+  }
+  .frameItem {
+    position: absolute;
+    top: 504px;
+    left: 524.7px;
+    width: 310px;
+    height: 91.9px;
+    overflow: hidden;
+  }
+  .frameInner {
+    position: absolute;
+    top: 362.5px;
+    left: 1147.7px;
+  }
+  .image21Parent {
+    position: absolute;
+    bottom: 315.2px;
+    left: 2px;
+    width: 1512px;
+    height: 540px;
+    overflow: hidden;
+  }
+  .image20Icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1247.6px;
+    height: 437.3px;
+    object-fit: cover;
+  }
+  .ourProfessionalAdvisors1 {
+    position: absolute;
+    top: 256.8px;
+    left: 88.6px;
+  }
+  .planYourTrip1 {
+    position: absolute;
+    top: 88.6px;
+    left: 88.6px;
+    font-size: 61.99px;
+    display: inline-block;
+    font-family: var(--font-helvetica);
+    width: 751.5px;
+  }
+  .image20Parent {
+    position: relative;
+    border-radius: 26.57px;
+    background-color: var(--color-white);
+    width: 1246.5px;
+    height: 437.3px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frameParent {
+    position: absolute;
+    top: 779.3px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 79.71px;
+    font-family: var(--netflix-sans-medium-26);
+  }
+  .image1Parent {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 3995.3px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 35.42px;
+    color: var(--color-white);
+    font-family: var(--font-helvetica);
+  }

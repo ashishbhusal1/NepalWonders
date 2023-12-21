@@ -1,27 +1,54 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Netflix+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap");
 body {
   margin: 0;
   line-height: normal;
 }
 :root {
   /* fonts */
-  --font-montserrat: Montserrat;
+  --netflix-sans-medium-26: "Netflix Sans";
+  --font-helvetica: Helvetica;
 
   /* font sizes */
-  --font-size-base: 16px;
-  --font-size-sm-6: 13.6px;
+  --netflix-sans-medium-26-size: 26px;
+  --font-size-mid-7: 17.7px;
+  --font-size-16xl-4: 35.4px;
+  --font-size-7xl-6: 26.6px;
+  --font-size-smi-2: 12.2px;
+  --font-size-mini-4: 14.4px;
 
   /* Colors */
+  --gray: #808080;
+  --color-gray-100: #06080c;
+  --color-gray-200: rgba(255, 255, 255, 0.4);
+  --color-gray-300: rgba(255, 255, 255, 0.02);
   --color-white: #fff;
-  --color-darkgray: #aeaeae;
-  --color-deepskyblue: #009ee2;
-  --color-dimgray: #6b6b6b;
   --color-black: #000;
-  --color-gray: rgba(0, 0, 0, 0.95);
+  --color-royalblue: #2659c3;
+
+  /* Gaps */
+  --gap-7xl-6: 26.6px;
+  --gap-4xs-9: 8.9px;
+  --gap-16xl-4: 35.4px;
+  --gap-mid-7: 17.7px;
+  --gap-8xs-4: 4.4px;
+  --gap-base-6: 16.6px;
+  --gap-3xl-1: 22.1px;
 
   /* Paddings */
-  --padding-xs: 12px;
-  --padding-base: 16px;
-  --padding-2xs-2: 10.2px;
-  --padding-sm-6: 13.6px;
+  --padding-4xs-9: 8.9px;
+  --padding-mid-7: 17.7px;
+  --padding-113xl-8: 132.8px;
+  --padding-7xl-6: 26.6px;
+  --padding-16xl-4: 35.4px;
+  --padding-xs-1: 11.1px;
+  --padding-base-6: 16.6px;
+  --padding-sm-3: 13.3px;
+
+  /* border radiuses */
+  --br-mid-7: 17.7px;
+  --br-4xs-9: 8.9px;
+  --br-16xl-4: 35.4px;
+  --br-4xl-2: 23.2px;
 }

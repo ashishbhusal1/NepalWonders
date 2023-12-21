@@ -1,0 +1,80 @@
+.topVacationDestinations1 {
+  position: relative;
+}
+.topVacationDestinationsWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 8.856232643127441px 132.843505859375px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image18Icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 343.2px;
+  height: 221.4px;
+  object-fit: cover;
+}
+.baliIndonasia {
+  position: absolute;
+  top: 161.6px;
+  left: 26.6px;
+  font-weight: 500;
+}
+.image18Parent {
+  position: absolute;
+  top: 0px;
+  left: 139.5px;
+  border-radius: 8.86px;
+  width: 343.2px;
+  height: 221.4px;
+  overflow: hidden;
+}
+.image18Group {
+  position: absolute;
+  top: 0px;
+  left: 509.2px;
+  border-radius: 8.86px;
+  width: 343.2px;
+  height: 221.4px;
+  overflow: hidden;
+}
+.image18Container {
+  position: absolute;
+  top: 0px;
+  left: 879px;
+  border-radius: 8.86px;
+  width: 343.2px;
+  height: 221.4px;
+  overflow: hidden;
+}
+.frameDiv {
+  position: absolute;
+  top: 0px;
+  left: 1248.7px;
+  border-radius: 8.86px;
+  width: 343.2px;
+  height: 221.4px;
+  overflow: hidden;
+}
+.frameGroup {
+  position: relative;
+  width: 1512.2px;
+  height: 221.4px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  font-size: 26.57px;
+  font-family: var(--netflix-sans-medium-26);
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35.42px;
+  text-align: left;
+  font-size: 35.42px;
+  color: var(--color-white);
+  font-family: var(--font-helvetica);
+}

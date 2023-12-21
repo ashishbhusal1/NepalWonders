@@ -1,0 +1,28 @@
+.connectWithOther1 {
+  position: relative;
+}
+.connectWithOtherTravellersWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 8.856232643127441px 132.843505859375px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  position: relative;
+  width: 1512.2px;
+  height: 379.7px;
+  font-size: 17.71px;
+  font-family: var(--netflix-sans-medium-26);
+}
+.frameParent {
+  height: 447.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 35.42px;
+  color: var(--color-black);
+  font-family: var(--font-helvetica);
+}

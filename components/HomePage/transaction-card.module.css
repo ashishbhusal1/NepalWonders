@@ -1,0 +1,65 @@
+.facebookIcon1 {
+  position: relative;
+  width: 26.6px;
+  height: 26.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social {
+  position: absolute;
+  top: calc(50% + 43.2px);
+  left: calc(50% + 455.9px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22.14px;
+}
+.medyaMerkezi {
+  position: relative;
+}
+.column01 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16.61px;
+}
+.links {
+  position: absolute;
+  height: 38.21%;
+  top: 15.09%;
+  bottom: 46.71%;
+  left: calc(50% - 391.9px);
+  width: 1015.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.netflixIncI062d573a0ee091 {
+  position: absolute;
+  top: 80.55%;
+  left: 23.35%;
+  font-size: 12.18px;
+  font-weight: 300;
+}
+.trxvl {
+  position: absolute;
+  top: 14.59%;
+  left: 8.78%;
+  font-size: 35.42px;
+  font-family: var(--font-helvetica);
+}
+.footer {
+  position: absolute;
+  bottom: 0.1px;
+  left: 0px;
+  background-color: var(--color-gray-100);
+  width: 1512.2px;
+  height: 318.8px;
+  text-align: left;
+  font-size: 14.39px;
+  color: var(--color-white);
+  font-family: var(--netflix-sans-medium-26);
+}

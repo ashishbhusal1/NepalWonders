@@ -1,0 +1,149 @@
+.offers {
+  position: relative;
+}
+.offersWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 8.856232643127441px 132.843505859375px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bytesizeheartIcon1 {
+  position: absolute;
+  top: 17.7px;
+  left: 290px;
+  width: 35.4px;
+  height: 35.4px;
+  overflow: hidden;
+}
+.image19Icon {
+  position: absolute;
+  top: -0.4px;
+  left: -3.6px;
+  width: 351.5px;
+  height: 234.4px;
+  object-fit: cover;
+}
+.bytesizeheartParent {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 23.23px;
+  overflow: hidden;
+  background-image: url("/frame-312@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bankOffer {
+  position: relative;
+  opacity: 0.5;
+}
+.getUpto301 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 343.2px;
+  flex-shrink: 0;
+}
+.getUpto30InstantDiscountWrapper {
+  width: 343.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.8;
+}
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 26.57px;
+}
+.bankOfferParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.43px;
+}
+.getDiscountOn1 {
+  position: relative;
+  display: inline-block;
+  width: 356.5px;
+  height: 44.3px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.getDiscountOnFlightsHotelWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookNowWrapper {
+  border-radius: 35.42px;
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  padding: 17.712465286254883px 35.424930572509766px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: var(--color-white);
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17.71px;
+}
+.frameDiv {
+  width: 726.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26.57px;
+}
+.frameWrapper {
+  position: absolute;
+  top: 0px;
+  left: 1709.3px;
+  border-radius: 17.71px;
+  background-color: var(--color-white);
+  box-shadow: 0px 4.4px 17.71px rgba(158, 158, 158, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: 26.56869888305664px 17.712465286254883px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  position: relative;
+  width: 1512.2px;
+  height: 285.6px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  font-size: 17.71px;
+  font-family: var(--netflix-sans-medium-26);
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35.42px;
+  text-align: left;
+  font-size: 35.42px;
+  color: var(--color-black);
+  font-family: var(--font-helvetica);
+}
