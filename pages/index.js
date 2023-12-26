@@ -93,7 +93,7 @@ const HomePage = () => {
       <Container />
       <div className={styles.frameChild} />
       <SearchFormContainer />
-      <b className={styles.theWholeWorld1}>The whole world awaits.</b>
+      <b className={styles.theWholeWorld1}>The whole Nepal awaits.</b>
       <b className={styles.topCategories}>Top categories</b>
       <div className={styles.image21Parent}>
         <img className={styles.image21Icon} alt="" src="/image-21@2x.png" />

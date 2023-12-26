@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <React.Fragment>
       <Head>
-        <title>helluys</title>
+        <title>NepalWonders</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

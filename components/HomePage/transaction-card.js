@@ -47,7 +47,7 @@ const TransactionCard = () => {
       <div
         className={styles.netflixIncI062d573a0ee091}
       >{`© 1997-2021 Netflix, Inc.  {i-062d573a0ee099242}`}</div>
-      <b className={styles.trxvl}>Trxvl.</b>
+      <b className={styles.trxvl}>NepalWonders</b>
     </div>
   );
 };
