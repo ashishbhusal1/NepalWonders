@@ -1,9 +1,28 @@
+import React from "react";
+import { useFormik } from "formik";
+import * as Yup from "yup";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faLock } from "@fortawesome/free-solid-svg-icons";
 import classes from "./LoginPage.module.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLock } from '@fortawesome/free-solid-svg-icons';
+
+const LoginSchema = Yup.object().shape({
+  email: Yup.string().email("Invalid email").required("Required"),
+  password: Yup.string().required("Required"),
+});
 
 const LoginPage = () => {
+  const formik = useFormik({
+    initialValues: {
+      email: "",
+      password: "",
+    },
+    validationSchema: LoginSchema,
+    onSubmit: (values) => {
+      // Perform login logic here
+      console.log("Login values:", values);
+    },
+  });
+
   return (
     <div className={classes.container}>
       <div className={classes.div}>
@@ -11,44 +30,70 @@ const LoginPage = () => {
         <div className={classes.overlap}>
           <div className={classes.group}>
             <div className={classes.textWrapper}>Forgot your password?</div>
-            <div className={classes.overlapGroupWrapper}>
-              <div className={classes.overlapGroup}>
-                <div className={classes.login}>LOGIN</div>
-              </div>
-            </div>
-            <div className={classes.overlapWrapper}>
-              <div className={classes.overlap2}>
-                <div className={classes.rectangle2} />
-                <div className={classes.group2}>
-                  <div className={classes.textWrapper2}>thisuix@mail.com</div>
-                  <FontAwesomeIcon icon={faEnvelope} className={classes.iconInstanceNode}/>
+            <form onSubmit={formik.handleSubmit} className={classes.form}>
+              <div className={classes.overlapGroupWrapper}>
+                <div className={classes.overlapGroup}>
+                  <div className={classes.login}>
+                    <button type="submit">Login</button>
+                  </div>
                 </div>
+              </div>
+              <div className={classes.overlapWrapper}>
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className={classes.envelope}
+                />
+
+                <div className={classes.overlap2}>
+                  <div className={classes.group2}>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Enter your email"
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
+                      value={formik.values.email}
+                    />
+                  </div>
                   <div className={classes.divWrapper}>
-                  <div className={classes.overlapGroup2}>
+                    <div className={classes.overlapGroup2}>
                       <div className={classes.textWrapper3}>Email Id</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className={classes.group3}>
-              <div className={classes.overlap2}>
-                <div className={classes.rectangle2} />
-                <div className={classes.group4}>
+              <div className={classes.group3}>
+                <div className={classes.overlap2}>
+                  <FontAwesomeIcon icon={faLock} className={classes.lock} />
+                  <div className={classes.group4}>
                     <div className={classes.overlapGroup3}>
-                    <div className={classes.textWrapper3}>Password</div>
+                      <div className={classes.textWrapper3}>Password</div>
+                    </div>
+                  </div>
+                  <div className={classes.group5}>
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      placeholder="Enter your password"
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
+                      value={formik.values.password}
+                    />
                   </div>
                 </div>
-                <div className={classes.group5}>
-                  <FontAwesomeIcon icon={faLock} className={classes.iconInstanceNode}/>
-                  <img className={classes.img} alt="Img" src="https://c.animaapp.com/j9rvoJJX/img/----------------.svg" />
-                </div>
               </div>
-            </div>
+            </form>
             <div className={classes.groupWrapper}>
               <div className={classes.group6}>
                 <div className={classes.overlapGroup4}>
-                  <img className={classes.subtract} alt="Subtract" src="https://c.animaapp.com/j9rvoJJX/img/subtract.svg" />
-                    <div className={classes.textWrapper4}>OR</div>
+                  <img
+                    className={classes.subtract}
+                    alt="Subtract"
+                    src="https://c.animaapp.com/j9rvoJJX/img/subtract.svg"
+                  />
+                  <div className={classes.textWrapper4}>OR</div>
                 </div>
               </div>
             </div>
@@ -65,7 +110,11 @@ const LoginPage = () => {
                 />
               </div>
               <div className={classes.XMLIDwrapper}>
-                <img className={classes.XMLID} alt="Xmlid" src="https://c.animaapp.com/j9rvoJJX/img/xmlid-17-@2x.png" />
+                <img
+                  className={classes.XMLID}
+                  alt="Xmlid"
+                  src="https://c.animaapp.com/j9rvoJJX/img/xmlid-17-@2x.png"
+                />
               </div>
               <div className={classes.iconAwesomeAppleWrapper}>
                 <img
@@ -81,17 +130,21 @@ const LoginPage = () => {
             </div>
           </div>
           <img
-            className={classes.untitledDesign}
+            className={classes.rhino}
             alt="Untitled design"
             src="https://c.animaapp.com/j9rvoJJX/img/untitled-design-7-1@2x.png"
           />
           <img
-            className={classes.untitledDesign2}
+            className={classes.flower}
             alt="Untitled design"
             src="https://c.animaapp.com/j9rvoJJX/img/untitled-design-8-1@2x.png"
           />
         </div>
-        <img className={classes.vector} alt="Vector" src="https://c.animaapp.com/j9rvoJJX/img/vector.svg" />
+        <img
+          className={classes.vector}
+          alt="Vector"
+          src="https://c.animaapp.com/j9rvoJJX/img/vector.svg"
+        />
       </div>
     </div>
   );

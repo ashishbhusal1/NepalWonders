@@ -1,12 +1,16 @@
+// Layout.js
 import MainNavigation from "./MainNavigation";
-import classes from "./Layout.module.css";
+import Footer from "./Footer";
+import styles from "./Layout.module.css";
 
-function Layout(props) {
+const Layout = (props) => {
   return (
-    <div>
+    <div className={styles.container}>
       <MainNavigation />
-      <main className={classes.main}>{props.children}</main>
+      <main className={styles.main}>{props.children}</main>
+      <Footer />
     </div>
   );
-}
+};
+
 export default Layout;

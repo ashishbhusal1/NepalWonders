@@ -1,47 +1,56 @@
-.header {
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    opacity: 100%;
-    padding:0 10%;
-    background-color: rgb(160, 193, 195);
+.logo {
+  position: relative;
+}
+.home {
+  position: relative;
+  opacity: 0.7;
+}
+.trxvlParent {
+  position: absolute;
+  top: 20.6px; 
+  left: 52px;
+  width: 1408.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameWrapper {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-color: #614F49;
+  width: 1470px;
+  height: 70px;
+  text-align: left;
+  font-size: 35.42px;
+  color: var(--color-white);
+  font-family: var(--font-helvetica);
+  z-index: 100; 
+}
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+  padding-right: 50px;
+}
 
-  }
+.header li {
+  margin-left: 3rem;
   
-  .logo {
-    height: 150px;
-    width: 150px;
-    color: white;
-    font-weight: bold;
-    margin-left: -100px;
-    
-  }
-  
-  .header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: baseline;
-  }
-  
-  .header li {
-    margin-left: 3rem;
-    
-  }
-  
-  .header a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #0f0e0e;
-  }
-  
-  .header a:hover,
-  .header a:active,
-  .header a.active {
-    color: white;
-  }
+}
 
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color:white;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: white;
+  opacity: 0.8;
+}

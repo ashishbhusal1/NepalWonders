@@ -1,4 +1,9 @@
-.main{
-    width: 100%;
-    max-width: 45rem;
-  }
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+}

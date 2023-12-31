@@ -1,15 +1,12 @@
 import Link from "next/link";
-import classes from './MainNavigation.module.css';
-
-
-function MainNavigation(){
-     return (
-        <header className={classes.header}>
-            <div className={classes.logo}>
-                <img src="logo.svg"/>
-            </div>
-            
-            <nav className="classes.links">
+import styles from "./MainNavigation.module.css";
+const Header = () => {
+  return (
+    <div className={styles.frameWrapper}>
+      <div className={styles.trxvlParent}>
+        <b className={styles.trxvl}>NepalWonders</b>
+        <div className={styles.header}>
+        <nav className={styles.links}>
                 <ul>
                     <li>
                         <Link href="/">Home</Link>
@@ -30,8 +27,10 @@ function MainNavigation(){
                     </li>
                 </ul>
             </nav>
-        </header>
-     )
-}
-export default MainNavigation;
-// pandey chor //
+            </div>
+      </div>
+    </div>
+  );
+};
+
+export default Header;

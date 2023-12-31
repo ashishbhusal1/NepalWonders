@@ -78,13 +78,12 @@
 // }
 
 // export default HomePage;
-import Container from '../components/HomePage/container';
+import Container from "../components/HomePage/container";
 import SearchFormContainer from "../components/HomePage/search-form-container";
 import TransactionCard from "../components/HomePage/transaction-card";
 import SectionCard from "../components/HomePage/section-card";
 import OffersSection from "../components/HomePage/offers-section";
 import CommunitySection from "../components/HomePage/community-section";
-import Header from "../components/HomePage/header";
 import styles from "./index.module.css";
 const HomePage = () => {
   return (
@@ -96,11 +95,11 @@ const HomePage = () => {
       <b className={styles.theWholeWorld1}>The whole Nepal awaits.</b>
       <b className={styles.topCategories}>Top categories</b>
       <div className={styles.image21Parent}>
-        <img className={styles.image21Icon} alt="" src="/image-21@2x.png" />
         <div className={styles.frameItem} />
         <div className={styles.frameInner} />
+        <img className={styles.image21Icon} alt="" src="/image-21@2x.png" />
       </div>
-      <TransactionCard />
+      {/* <TransactionCard /> */}
       <div className={styles.frameParent}>
         <SectionCard
           topVacationDestinations="Top Vacation Destinations"
@@ -137,12 +136,8 @@ const HomePage = () => {
         </div>
         <CommunitySection />
       </div>
-      <Header />
     </div>
   );
 };
 
 export default HomePage;
-
-
-

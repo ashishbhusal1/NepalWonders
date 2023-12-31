@@ -36,3 +36,14 @@
     width: 24px;
   }
   
+  /* Form.module.css */
+
+.inputStyle {
+  /* Add your styles for the input boxes here */
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
