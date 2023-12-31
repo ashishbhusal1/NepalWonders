@@ -25,7 +25,7 @@
 .image18Parent {
   position: absolute;
   top: 0px;
-  left: 139.5px;
+  left: 39.5px;
   border-radius: 8.86px;
   width: 343.2px;
   height: 221.4px;
@@ -34,7 +34,7 @@
 .image18Group {
   position: absolute;
   top: 0px;
-  left: 509.2px;
+  left: 409.2px;
   border-radius: 8.86px;
   width: 343.2px;
   height: 221.4px;
@@ -43,7 +43,7 @@
 .image18Container {
   position: absolute;
   top: 0px;
-  left: 879px;
+  left: 779px;
   border-radius: 8.86px;
   width: 343.2px;
   height: 221.4px;
@@ -52,7 +52,7 @@
 .frameDiv {
   position: absolute;
   top: 0px;
-  left: 1248.7px;
+  left: 1148.7px;
   border-radius: 8.86px;
   width: 343.2px;
   height: 221.4px;
@@ -60,7 +60,7 @@
 }
 .frameGroup {
   position: relative;
-  width: 1512.2px;
+  width: 1300px;
   height: 221.4px;
   overflow-x: auto;
   flex-shrink: 0;

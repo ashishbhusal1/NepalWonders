@@ -15,15 +15,11 @@ const CommunitySection = () => {
           locationName="Travel Talk"
           propLeft="529.2px"
         />
-        <FormContainer
-          dimensionCode="/frame-315@2x.png"
-          locationName="Beach"
-          propLeft="925.5px"
-        />
+        
         <FormContainer
           dimensionCode="/frame-316@2x.png"
           locationName="Mountains"
-          propLeft="1321.8px"
+          propLeft="925.5px"
         />
       </div>
     </div>

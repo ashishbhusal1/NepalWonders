@@ -11,7 +11,7 @@
 .bytesizeheartIcon1 {
   position: absolute;
   top: 17.7px;
-  left: 290px;
+  left: 90px;
   width: 35.4px;
   height: 35.4px;
   overflow: hidden;
@@ -129,7 +129,7 @@
 }
 .frameGroup {
   position: relative;
-  width: 1512.2px;
+  width: 1300.2px;
   height: 285.6px;
   overflow-x: auto;
   flex-shrink: 0;
@@ -146,4 +146,5 @@
   font-size: 35.42px;
   color: var(--color-black);
   font-family: var(--font-helvetica);
+  left: 10px;
 }
