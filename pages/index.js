@@ -102,14 +102,14 @@ const HomePage = () => {
       <div className={styles.frameParent}>
         <SectionCard
           topVacationDestinations="Top Vacation Destinations"
-          image18="/image-18@2x.png"
-          baliIndonasia="Bali, Indonesia"
-          image181="/image-181@2x.png"
-          kerryIreland="Kerry, Ireland"
-          image182="/image-182@2x.png"
-          sydneyAustralia="Sydney, Australia"
-          image183="/image-183@2x.png"
-          parisFrance="Paris, France"
+          image18="/Chitwan.jpg"
+          baliIndonasia="Chitwan, Nepal"
+          image181="/Kathmandu.jpg"
+          kerryIreland="Kathmandu, Nepal"
+          image182="/Pokhara.jpg"
+          sydneyAustralia="Pokhara, Nepal"
+          image183="/MustaNG.jpg"
+          parisFrance="Mustang, Nepal"
         />
         <OffersSection />
         <SectionCard

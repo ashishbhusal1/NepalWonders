@@ -9,16 +9,16 @@ const CommunitySection = () => {
         </b>
       </div>
       <div className={styles.frameGroup}>
-        <FormContainer dimensionCode="/frame-313@2x.png" locationName="India" />
+        <FormContainer dimensionCode="/Chitwan1.jpg" locationName="Chitwan" />
         <FormContainer
-          dimensionCode="/frame-314@2x.png"
-          locationName="Travel Talk"
+          dimensionCode="/Pokhara1.jpg"
+          locationName="Pokhara"
           propLeft="529.2px"
         />
         
         <FormContainer
-          dimensionCode="/frame-316@2x.png"
-          locationName="Mountains"
+          dimensionCode="/Pashupati.jpeg"
+          locationName="Kathmandu"
           propLeft="925.5px"
         />
       </div>
