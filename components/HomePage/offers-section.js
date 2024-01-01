@@ -8,14 +8,14 @@ const OffersSection = () => {
       </div>
       <div className={styles.frameGroup}>
         <CardContainer
-          dimensionText="/image-19@2x.png"
+          dimensionText="/Bhudda air.jpg"
           offerImageUrl="Domestic Flights"
-          promotionText="Huge savings on flight with trxvl."
-          flightDealText="Book domestic flights starting @ just ₹1459"
+          promotionText="Huge savings on flight with Khalti."
+          flightDealText="Book domestic flights starting @ just रु3459"
         />
         <CardContainer
           dimensionText="/image-191@2x.png"
-          offerImageUrl="International Hotels"
+          offerImageUrl="Domestic  Hotels"
           promotionText="Enjoy upto 20% off on International Hotels"
           flightDealText="Make the most of  this deal on your first booking with trxvl."
           propLeft="921px"
