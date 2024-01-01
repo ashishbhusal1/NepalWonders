@@ -31,19 +31,19 @@ const SectionCard = ({
       <div className={styles.frameGroup}>
         <div className={styles.image18Parent}>
           <img className={styles.image18Icon} alt="" src={image18} />
-          <div className={styles.baliIndonasia}>{baliIndonasia}</div>
+          <div className={styles.ktm}>{baliIndonasia}</div>
         </div>
         <div className={styles.image18Group}>
           <img className={styles.image18Icon} alt="" src={image181} />
-          <div className={styles.baliIndonasia}>{kerryIreland}</div>
+          <div className={styles.ktm}>{kerryIreland}</div>
         </div>
         <div className={styles.image18Container}>
           <img className={styles.image18Icon} alt="" src={image182} />
-          <div className={styles.baliIndonasia}>{sydneyAustralia}</div>
+          <div className={styles.ktm}>{sydneyAustralia}</div>
         </div>
         <div className={styles.frameDiv}>
           <img className={styles.image18Icon} alt="" src={image183} />
-          <div className={styles.baliIndonasia}>{parisFrance}</div>
+          <div className={styles.ktm}>{parisFrance}</div>
         </div>
       </div>
     </div>

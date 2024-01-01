@@ -17,7 +17,7 @@ const OffersSection = () => {
           dimensionText="/Siraichuli.jpg"
           offerImageUrl="Domestic  Hotels"
           promotionText="Enjoy upto 20% off on  Hotels"
-          flightDealText="Make the most of  this deal on your first booking with esewa."
+          flightDealText="Make the most of  this deal on your first booking with eSewa."
           propLeft="921px"
           // propBackgroundImage={`url("/frame-311@3x.png")`}
            propWidth="351.5px"
@@ -52,7 +52,7 @@ const OffersSection = () => {
                 <div className={styles.getDiscountOnFlightsHotelWrapper}>
                   <div className={styles.getDiscountOn1}>
                     Get discount on flights, hotels and holiday packages with
-                    nabil bank credit card.
+                    Nabil bank credit card.
                   </div>
                 </div>
               </div>
