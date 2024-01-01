@@ -14,10 +14,10 @@ const OffersSection = () => {
           flightDealText="Book domestic flights starting @ just रु3459"
         />
         <CardContainer
-          dimensionText="/image-191@2x.png"
+          dimensionText="/Siraichuli.jpg"
           offerImageUrl="Domestic  Hotels"
-          promotionText="Enjoy upto 20% off on International Hotels"
-          flightDealText="Make the most of  this deal on your first booking with trxvl."
+          promotionText="Enjoy upto 20% off on  Hotels"
+          flightDealText="Make the most of  this deal on your first booking with esewa."
           propLeft="921px"
           propBackgroundImage={`url("/frame-311@3x.png")`}
           propWidth="351.5px"
@@ -34,7 +34,7 @@ const OffersSection = () => {
               <img
                 className={styles.image19Icon}
                 alt=""
-                src="/image-192@2x.png"
+                src="/Holidaypackage.jpeg"
               />
             </div>
             <div className={styles.frameParent1}>
@@ -52,7 +52,7 @@ const OffersSection = () => {
                 <div className={styles.getDiscountOnFlightsHotelWrapper}>
                   <div className={styles.getDiscountOn1}>
                     Get discount on flights, hotels and holiday packages with
-                    HDFC bank credit card.
+                    nabil bank credit card.
                   </div>
                 </div>
               </div>
