@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className={styles.frameWrapper}>
       <div className={styles.trxvlParent}>
-        <b className={styles.trxvl}>NepalWonders</b>
+        <img src="logo.png"  className={styles.logo1}/>
         <div className={styles.header}>
         <nav className={styles.links}>
                 <ul>

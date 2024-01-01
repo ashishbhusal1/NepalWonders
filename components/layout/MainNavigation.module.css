@@ -1,5 +1,8 @@
-.logo {
-  position: relative;
+.logo1 {
+  /* position: relative; */
+  height: 130px;
+  width: 200px;
+  margin-top: -50px;
 }
 .home {
   position: relative;
@@ -30,7 +33,7 @@
 }
 .header ul {
   list-style: none;
-  margin: 0;
+  margin-top: -10px;
   padding: 0;
   display: flex;
   align-items: baseline;

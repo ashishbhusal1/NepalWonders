@@ -38,11 +38,6 @@
   right: 20px;
 }
 
-.logo {
-  font-size: 35.42px;
-  font-family: var(--font-helvetica);
-  padding-left: 50px;
-}
 
 .footer {
   position: relative;
@@ -67,4 +62,10 @@
 
 .link:hover {
   color: var(--color-royalblue);
+}
+.logo{
+  height: 110px;
+  width: 200px;
+  margin-top: -60px;
+  margin-left: 50px;
 }

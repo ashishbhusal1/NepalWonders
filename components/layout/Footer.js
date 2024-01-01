@@ -10,7 +10,7 @@ const Footer = () => {
         <FaLinkedin className={styles.Icon} />
         <FaYoutube className={styles.Icon} />
       </div>
-      <b className={styles.logo}>NepalWonders</b>
+      <img src="logo.png" className={styles.logo}/>
       <div className={styles.links}>
         <div className={styles.column}>
           <p className={styles.link}>Home</p>

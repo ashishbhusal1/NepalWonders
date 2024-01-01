@@ -80,7 +80,6 @@
 // export default HomePage;
 import Container from "../components/HomePage/container";
 import SearchFormContainer from "../components/HomePage/search-form-container";
-import TransactionCard from "../components/HomePage/transaction-card";
 import SectionCard from "../components/HomePage/section-card";
 import OffersSection from "../components/HomePage/offers-section";
 import CommunitySection from "../components/HomePage/community-section";
