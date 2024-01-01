@@ -128,7 +128,7 @@ const HomePage = () => {
             Our professional advisors can craft your perfect itinerary
           </div>
           <b className={styles.planYourTrip1}>
-            Plan your trip with travel expert
+            Plan your trip with Nepal Wonders Team
           </b>
         </div>
         <CommunitySection />
