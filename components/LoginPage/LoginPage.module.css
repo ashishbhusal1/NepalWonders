@@ -4,15 +4,13 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  
 }
 
 .container .div {
-   background-color: #ffffff; 
+  background-color: #ffffff;
   height: 650px;
   position: relative;
   width: 1470px;
-  
 }
 
 .container .rectangle {
