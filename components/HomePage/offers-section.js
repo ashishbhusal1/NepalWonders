@@ -19,8 +19,8 @@ const OffersSection = () => {
           promotionText="Enjoy upto 20% off on  Hotels"
           flightDealText="Make the most of  this deal on your first booking with esewa."
           propLeft="921px"
-          propBackgroundImage={`url("/frame-311@3x.png")`}
-          propWidth="351.5px"
+          // propBackgroundImage={`url("/frame-311@3x.png")`}
+           propWidth="351.5px"
           propHeight="234.4px"
         />
         <div className={styles.frameWrapper}>
@@ -58,7 +58,7 @@ const OffersSection = () => {
               </div>
               <div className={styles.frameWrapper2}>
                 <div className={styles.bookNowWrapper}>
-                  <div className={styles.offers}>Book Now</div>
+                  <div className={styles.offers} >Book Now</div>
                 </div>
               </div>
             </div>
