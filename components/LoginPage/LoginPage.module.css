@@ -1,16 +1,18 @@
 .container {
-  background-color: #ffffff;
+  background-color: #ffffff; 
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  
 }
 
 .container .div {
-  background-color: #ffffff;
+   background-color: #ffffff; 
   height: 650px;
   position: relative;
   width: 1470px;
+  
 }
 
 .container .rectangle {
@@ -176,7 +178,6 @@
   top: 5px;
   white-space: nowrap;
 }
-
 
 .container .group3 {
   height: 63px;
