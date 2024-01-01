@@ -78,7 +78,7 @@
 // }
 
 // export default HomePage;
-import Container from "../components/HomePage/container";
+
 import SearchFormContainer from "../components/HomePage/search-form-container";
 import SectionCard from "../components/HomePage/section-card";
 import OffersSection from "../components/HomePage/offers-section";
@@ -88,11 +88,9 @@ const HomePage = () => {
   return (
     <div className={styles.image1Parent}>
       <img className={styles.image1Icon} alt="" src="/image-1@2x.png" />
-      <Container />
       <div className={styles.frameChild} />
       <SearchFormContainer />
       <b className={styles.theWholeWorld1}>The whole Nepal awaits.</b>
-      <b className={styles.topCategories}>Top categories</b>
       <div className={styles.image21Parent}>
         <div className={styles.frameItem} />
         <div className={styles.frameInner} />

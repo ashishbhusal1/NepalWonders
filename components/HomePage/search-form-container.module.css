@@ -6,7 +6,7 @@
   flex-shrink: 0;
   opacity: 0.7;
 }
-.akarIconssearchParent {
+.parent {
   width: 418.5px;
   display: flex;
   flex-direction: row;
@@ -20,25 +20,18 @@
   position: relative;
   opacity: 0.7;
 }
-.akarIconscalendarParent {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  padding: 13.28434944152832px 8.856232643127441px;
-  align-items: center;
-  justify-content: center;
-  gap: 8.86px;
-}
+
 .searchWrapper {
   flex: 1;
   border-radius: 35.42px;
   background-color: var(--color-white);
   display: flex;
   flex-direction: row;
-  padding: 13.28434944152832px 35.424930572509766px;
+  padding: 13px 35px;
   align-items: center;
   justify-content: center;
   color: var(--color-royalblue);
+  margin-left: 300px;
 }
 .frameParent {
   align-self: stretch;
