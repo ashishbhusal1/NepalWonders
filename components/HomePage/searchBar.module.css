@@ -1,4 +1,4 @@
-.akarIconssearch1 {
+.searchIcon {
   position: relative;
   width: 22.1px;
   height: 22.1px;
@@ -7,7 +7,6 @@
   opacity: 0.7;
 }
 .parent {
-  width: 418.5px;
   display: flex;
   flex-direction: row;
   padding: 13.28434944152832px 8.856232643127441px;
@@ -15,19 +14,15 @@
   align-items: center;
   justify-content: flex-start;
   gap: 8.86px;
+  background-color: var(--color-gray-200);
 }
-.checkIn {
-  position: relative;
-  opacity: 0.7;
-}
-
 .searchWrapper {
   flex: 1;
   border-radius: 35.42px;
   background-color: var(--color-white);
   display: flex;
   flex-direction: row;
-  padding: 13px 35px;
+  padding: 18px 35px;
   align-items: center;
   justify-content: center;
   color: var(--color-royalblue);

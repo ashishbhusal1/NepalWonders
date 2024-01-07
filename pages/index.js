@@ -79,7 +79,7 @@
 
 // export default HomePage;
 
-import SearchFormContainer from "../components/HomePage/search-form-container";
+import SearchFormContainer from "../components/HomePage/searchBar";
 import SectionCard from "../components/HomePage/section-card";
 import OffersSection from "../components/HomePage/offers-section";
 import CommunitySection from "../components/HomePage/community-section";
