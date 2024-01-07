@@ -109,20 +109,6 @@ const LoginPage = () => {
                   src="https://c.animaapp.com/j9rvoJJX/img/google--g--logo@2x.png"
                 />
               </div>
-              <div className={classes.XMLIDwrapper}>
-                <img
-                  className={classes.XMLID}
-                  alt="Xmlid"
-                  src="https://c.animaapp.com/j9rvoJJX/img/xmlid-17-@2x.png"
-                />
-              </div>
-              <div className={classes.iconAwesomeAppleWrapper}>
-                <img
-                  className={classes.iconAwesomeApple}
-                  alt="Icon awesome apple"
-                  src="https://c.animaapp.com/j9rvoJJX/img/icon-awesome-apple.svg"
-                />
-              </div>
             </div>
             <div className={classes.group8}>
               <div className={classes.textWrapper6}>Welcome</div>

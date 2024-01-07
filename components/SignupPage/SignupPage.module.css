@@ -385,7 +385,7 @@
     background-color: #e6f1f4;
     border-radius: 9px;
     height: 57px;
-    left: 0;
+    left: 108px;
     position: absolute;
     top: 0;
     width: 95px;
@@ -399,41 +399,6 @@
     width: 24px;
 }
 
-.SignupPage .XMLIDwrapper {
-    background-color: #e6f1f4;
-    border-radius: 9px;
-    height: 57px;
-    left: 105px;
-    position: absolute;
-    top: 0;
-    width: 95px;
-}
-
-.SignupPage .XMLID {
-    height: 25px;
-    left: 35px;
-    position: absolute;
-    top: 12px;
-    width: 24px;
-}
-
-.SignupPage .iconAwesomeAppleWrapper {
-    background-color: #e6f1f4;
-    border-radius: 9px;
-    height: 57px;
-    left: 210px;
-    position: absolute;
-    top: 0;
-    width: 95px;
-}
-
-.SignupPage .iconAwesomeApple {
-    height: 25px;
-    left: 37px;
-    position: absolute;
-    top: 12px;
-    width: 20px;
-}
 
 .SignupPage .vector {
     height: 51px;

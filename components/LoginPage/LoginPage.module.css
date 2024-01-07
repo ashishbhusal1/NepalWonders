@@ -291,7 +291,7 @@
   background-color: #e6f1f4;
   border-radius: 9px;
   height: 54px;
-  left: 0;
+  left: 108px;
   position: absolute;
   top: 0;
   width: 95px;
@@ -304,43 +304,6 @@
   top: 11px;
   width: 24px;
 }
-
-.container .XMLIDwrapper {
-  background-color: #e6f1f4;
-  border-radius: 9px;
-  height: 54px;
-  left: 105px;
-  position: absolute;
-  top: 0;
-  width: 95px;
-}
-
-.container .XMLID {
-  height: 24px;
-  left: 35px;
-  position: absolute;
-  top: 11px;
-  width: 24px;
-}
-
-.container .iconAwesomeAppleWrapper {
-  background-color: #e6f1f4;
-  border-radius: 9px;
-  height: 54px;
-  left: 210px;
-  position: absolute;
-  top: 0;
-  width: 95px;
-}
-
-.container .iconAwesomeApple {
-  height: 24px;
-  left: 37px;
-  position: absolute;
-  top: 11px;
-  width: 20px;
-}
-
 .container .group8 {
   height: 77px;
   left: 29px;
