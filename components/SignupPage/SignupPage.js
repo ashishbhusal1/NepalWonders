@@ -12,6 +12,7 @@ const SignupSchema = Yup.object().shape({
   name: Yup.string().required("Required"),
 });
 
+
 const SignupPage = () => {
   const formik = useFormik({
     initialValues: {
@@ -23,8 +24,13 @@ const SignupPage = () => {
     onSubmit: (values) => {
       // Perform login logic here
       console.log("Signup values:", values);
+      
     },
   });
+  // const handleLoginClick = () => {
+  //   // Redirect to the login page
+  //   window.location.href = "http://localhost:3000/login"; // Replace "/login" with the desired URL
+  // };
 
   return (
     <div className={classes.SignupPage}>
@@ -133,7 +139,8 @@ const SignupPage = () => {
             <div className={classes.group9}>
               <p className={classes.dontHaveAccount}>
                 <span className={classes.span}>Already have an account? </span>
-                <span className={classes.textWrapper6}>Login</span>
+                <button  className={classes.login}>Login</button>
+         
               </p>
               <div className={classes.googleLogoWrapper}>
                 <img
