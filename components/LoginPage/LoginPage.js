@@ -4,11 +4,15 @@ import * as Yup from "yup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLock } from "@fortawesome/free-solid-svg-icons";
 import classes from "./LoginPage.module.css";
+// import {useNavigate} from "react-router-dom";
 
 const LoginSchema = Yup.object().shape({
   email: Yup.string().email("Invalid email").required("Required"),
   password: Yup.string().required("Required"),
 });
+
+
+
 
 const LoginPage = () => {
   const formik = useFormik({
@@ -23,7 +27,9 @@ const LoginPage = () => {
     },
   });
 
+
   return (
+    
     <div className={classes.container}>
       <div className={classes.div}>
         <img className={classes.rectangle} alt="Rectangle" src="girl.png" />
@@ -101,7 +107,7 @@ const LoginPage = () => {
               <p className={classes.dontHaveAccount}>
                 <span className={classes.span}>Don’t have account? </span>
                 {/* <span className={classes.textWrapper5}>Register Now</span> */}
-                <button className={classes.registernow}>Register Now</button>
+                <button className={classes.registernow}  >Register Now</button>
               </p>
               <div className={classes.googleLogoWrapper}>
                 <img
