@@ -100,7 +100,8 @@ const LoginPage = () => {
             <div className={classes.group7}>
               <p className={classes.dontHaveAccount}>
                 <span className={classes.span}>Don’t have account? </span>
-                <span className={classes.textWrapper5}>Register Now</span>
+                {/* <span className={classes.textWrapper5}>Register Now</span> */}
+                <button className={classes.registernow}>Register Now</button>
               </p>
               <div className={classes.googleLogoWrapper}>
                 <img
