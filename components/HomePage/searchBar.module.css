@@ -8,6 +8,8 @@
 }
 .parent {
   display: flex;
+
+  display: flex;border-radius: 35.42px;
   flex-direction: row;
   padding: 13.28434944152832px 8.856232643127441px;
   box-sizing: border-box;
@@ -20,13 +22,14 @@
   flex: 1;
   border-radius: 35.42px;
   background-color: var(--color-white);
-  display: flex;
+  display: flexbox;
   flex-direction: row;
   padding: 18px 35px;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   color: var(--color-royalblue);
   margin-left: 300px;
+  cursor: pointer;
 }
 .frameParent {
   align-self: stretch;

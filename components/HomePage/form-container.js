@@ -16,7 +16,7 @@ const FormContainer = ({ dimensionCode, locationName, propLeft }) => {
             <div className={styles.india}>{locationName}</div>
           </div>
           <div className={styles.travelCommunity}>Travel community</div>
-          <div className={styles.travelCommunity}>0 travelers</div>
+          <div className={styles.travelCommunity}>99 travelers</div>
         </div>
       </div>
     </div>
