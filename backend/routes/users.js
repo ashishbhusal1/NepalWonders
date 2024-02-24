@@ -7,8 +7,8 @@ import {
 } from "../controllers/userController.js";
 
 const router = express.Router();
-router.put("/", updateUser);
-router.delete("/", deleteUser);
-router.get("/", getSingleUser);
-router.get("/", getAllUser);
+router.put("/:id", verifyUser,updateUser);
+router.delete("/:id", verifyUser,deleteUser);
+router.get("/:id", verifyUser, getSingleUser);
+router.get("/", verifyAdmin,getAllUser);
 export default router;
