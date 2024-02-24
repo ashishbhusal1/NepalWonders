@@ -9,16 +9,21 @@ import tourImg07 from "../images/tour-img07.jpg";
 const tours = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
+    title: "Bungee Jump",
+    city: "Pokhara",
+    address: 'Somewhere',
     distance: 300,
-    price: 99,
+    price: 89,
     maxGroupSize: 10,
     desc: "this is the description",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Collins",
         rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 5,
       },
     ],
     avgRating: 4.5,
@@ -27,10 +32,11 @@ const tours = [
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
+    title: "Hot Air Baloon, Pokhara",
+    city: "Nepal",
+    address: 'Somewhere',
     distance: 400,
-    price: 99,
+    price: 100 ,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -45,8 +51,9 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Rara Lake, Nepal",
+    city: "Nepal",
+    address: 'Somewhere',
     distance: 500,
     price: 99,
     maxGroupSize: 8,
@@ -63,15 +70,16 @@ const tours = [
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
+    title: "Mankamana, Gorkha",
+    city: "Nepal",
+    address: 'Somewhere',
     distance: 500,
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Nabin Pandey",
         rating: 4.6,
       },
     ],
@@ -81,15 +89,16 @@ const tours = [
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
+    title: "BouddhaNath Stupa, Kathmandu",
+    city: "Nepal",
+    address: 'Somewhere',
     distance: 500,
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Nabin Pandey",
         rating: 4.6,
       },
     ],
@@ -99,15 +108,16 @@ const tours = [
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
+    title: "Pashupati Nath,Kathmandu",
+    city: "Nepal",
+    address: 'Somewhere',
     distance: 500,
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Nabin Pandey",
         rating: 4.6,
       },
     ],
@@ -117,8 +127,9 @@ const tours = [
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
+    title: "Jalbire Jharana , Chitwan",
+    city: "Nepal",
+    address: 'Somewhere',
     distance: 500,
     price: 99,
     maxGroupSize: 8,
@@ -130,8 +141,9 @@ const tours = [
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Rara Lake, Nepal",
+    city: "Nepal",
+    address: 'Somewhere',
     distance: 500,
     price: 99,
     maxGroupSize: 8,
