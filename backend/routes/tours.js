@@ -3,7 +3,7 @@ import {
   createTour,
   deleteTour,
   getAllTour,
-  getFeaturedTour,
+  getFeaturedTours,
   getSingleTour,
   getTourBySearch,
   updateTour,
