@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./search-bar.css";
+import "../shared/search-bar.css";
 import { Col, Form, FormGroup } from "reactstrap";
 
 function SearchBar() {
