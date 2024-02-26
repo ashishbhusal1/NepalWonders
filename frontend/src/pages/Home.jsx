@@ -43,7 +43,7 @@ const Home = () => {
             </div>
           </Col>
           <Col lg='2'>
-            <div className="hero__img-box mt-4">
+            <div className="hero__img-box hero_video-box mt-4">
               <video src={heroVideo} alt="" controls />
             </div>
           </Col>

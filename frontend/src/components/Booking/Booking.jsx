@@ -37,7 +37,7 @@ const Booking = ({tour, avgRating}) => {
             if(!user ||user===undefined||user===null){
                 return alert('Please sign in')
             }
-            const res=await fetch(`${BASE_URL}/review`,{
+            const res=await fetch(`${BASE_URL}/booking`,{
                 method:'post',
                 headers:{
                     'content-type':'application/json'
