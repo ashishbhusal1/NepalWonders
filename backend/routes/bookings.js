@@ -1,10 +1,10 @@
 import express from "express";
-import { verifyAdmin, verifyUser } from "../utils/verifyToken";
+import { verifyAdmin, verifyUser } from "../utils/verifyToken.js";
 import {
   createBooking,
   getAllBooking,
   getBooking,
-} from "../controllers/bookingController";
+} from "../controllers/bookingController.js";
 
 const router = express.Router();
 

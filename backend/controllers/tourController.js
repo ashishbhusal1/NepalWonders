@@ -36,7 +36,7 @@ export const updateTour = async (req, res) => {
     });
   }
 };
-export const daleteTour = async (req, res) => {
+export const deleteTour = async (req, res) => {
   try {
     await Tour.findByIdAndDelete(id);
     res.status(200).json({
@@ -112,7 +112,7 @@ export const getTourBySearch = async (req, res) => {
   }
 };
 
-export const getFeaturedTour = async (req, res) => {
+export const getFeaturedTours = async (req, res) => {
   try {
     const tours = await Tour.find({ featured: true })
       .populate("reviews")

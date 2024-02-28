@@ -59,7 +59,7 @@ const TourDetails = () => {
       if (!res.ok) {
         return alert(result.message);
       }
-      alert(result.message)
+      alert(result.message);
     } catch (err) {
       alert(err.message);
     }
@@ -162,10 +162,9 @@ const TourDetails = () => {
                               <div>
                                 <h5>{review.username}</h5>
                                 <p>
-                                  {new Date(review.createdAt).toLocaleDateString(
-                                    "en-US",
-                                    options
-                                  )}
+                                  {new Date(
+                                    review.createdAt
+                                  ).toLocaleDateString("en-US", options)}
                                 </p>
                               </div>
                               <span className="d-flex align-items-center">
