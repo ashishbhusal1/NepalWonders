@@ -17,7 +17,13 @@ const corsOptions = {
   credentials: true,
 };
 
-//database connection
+// Middleware
+app.use(cors(corsOptions));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
+
+// Database connection
 mongoose.set("strictQuery", false);
 
 const connect = async () => {
@@ -25,30 +31,29 @@ const connect = async () => {
     await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
+      // Remove useCreateIndex and useFindAndModify options
     });
     console.log("MongoDB database connected");
   } catch (err) {
-    console.log("MongoDB database connection failed");
+    console.error("MongoDB database connection failed:", err);
   }
 };
 
-app.get("/", (req, res) => {
-  res.send("api is working");
-});
-
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(app.use(cors(corsOptions)));
-app.use(cookieParser());
+// Routes
 app.use("/api/v1/auth", authRoute);
 app.use("/api/v1/tours", tourRoute);
 app.use("/api/v1/users", userRoute);
 app.use("/api/v1/review", reviewRoute);
 app.use("/api/v1/booking", bookingRoute);
 
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send("Something went wrong!");
+});
+
+// Start server
 app.listen(port, () => {
   connect();
-  console.log("server listening on port", port);
+  console.log("Server listening on port", port);
 });
