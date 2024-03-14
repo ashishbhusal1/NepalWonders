@@ -88,7 +88,7 @@
 }
 
 @media only screen and (max-width: 576px){
-    .tour_title{
+    .tour__title{
         font-size: 1rem;
     }
     .booking__btn a{

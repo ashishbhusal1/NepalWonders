@@ -87,7 +87,7 @@ ul {
 }
 
 @media only screen and (max-width: 992px) {
-  .primary_btn a,
+  .primary__btn a,
   .secondary__btn a {
     font-size: 0.9rem;
   }

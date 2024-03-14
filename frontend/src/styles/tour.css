@@ -12,7 +12,7 @@
   cursor: pointer;
   font-weight: 700;
 }
-.active_page {
+.active__page {
   background: var(--secondary-color);
   color: #fff !important;
 }

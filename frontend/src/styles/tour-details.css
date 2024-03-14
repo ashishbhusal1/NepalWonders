@@ -1,55 +1,55 @@
-.tour_content img {
+.tour__content img {
   width: 100%;
   border-radius: 0.5rem;
   margin-bottom: 2.5rem;
 }
-.tour_info,
-.tour_reviews {
+.tour__info,
+.tour__reviews {
   border-radius: 0.5rem;
   border: 1px solid rgb(229, 231, 235);
   padding: 2rem;
 }
-.tour_info h2 {
+.tour__info h2 {
   font-size: 1.5rem;
 }
-.tour_info span {
+.tour__info span {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-style: 1rem;
   color: var(--text-color);
 }
-.tour_info span i {
+.tour__info span i {
   color: var(--heading-color);
   font-size: 1.1rem;
 }
-.tour_extra-details {
+.tour__extra-details {
   display: flex;
   align-items: center;
   column-gap: 2.7rem;
   margin-top: 1rem;
   margin-bottom: 2.5rem;
 }
-.tour_info h5 {
+.tour__info h5 {
   margin-bottom: 1rem;
   font-size: 1.3rem;
 }
-.tour_info p {
+.tour__info p {
   line-height: 30px;
   font-size: 1rem;
   color: var(--text-color);
 }
-.rating_group span {
+.rating__group span {
   font-size: 1.1rem;
   display: flex;
   align-items: center;
   color: var(--secondary-color);
   cursor: pointer;
 }
-.tour_reviews h4 {
+.tour__reviews h4 {
   margin-bottom: 3rem;
 }
-.review_input {
+.review__input {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,12 +58,12 @@
   border-radius: 2rem;
   border: 1px solid var(--secondary-color);
 }
-.review_input input {
+.review__input input {
   width: 100%;
   padding: 0.5rem 0;
   border: none;
 }
-.review_input input:focus {
+.review__input input:focus {
   outline: none;
 }
 .review__item {
@@ -109,14 +109,14 @@
 }
 
 @media only screen and (max-width:768px){
-  .tour_extra-details{
+  .tour__extra-details{
     flex-wrap: wrap;
     row-gap: 1rem;
   }
-  .tour_extra-details span {
+  .tour__extra-details span {
     font-size: 0.9rem;
   }
-  .tour_extra-details span i {
+  .tour__extra-details span i {
     font-size: 1rem;
   }
 }

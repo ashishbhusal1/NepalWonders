@@ -30,9 +30,9 @@ function SearchBar() {
   };
   return (
     <Col lg="12">
-      <div className="search_bar">
+      <div className="search__bar">
         <Form className="d-flex align-items-center gap-4">
-          <FormGroup className="d-flex gap-3 form_group form_group-fast">
+          <FormGroup className="d-flex gap-3 form__group form__group-fast">
             <span>
               <i class="ri-map-pin-line"></i>
             </span>
@@ -45,7 +45,7 @@ function SearchBar() {
               />
             </div>
           </FormGroup>
-          <FormGroup className="d-flex gap-3 form_group form_group-fast">
+          <FormGroup className="d-flex gap-3 form__group form__group-fast">
             <span>
               <i class="ri-map-pin-time-line"></i>
             </span>
@@ -58,7 +58,7 @@ function SearchBar() {
               />
             </div>
           </FormGroup>
-          <FormGroup className="d-flex gap-3 form_group form_group-fast">
+          <FormGroup className="d-flex gap-3 form__group form__group-fast">
             <span>
               <i class="ri-group-line"></i>
             </span>
@@ -67,7 +67,7 @@ function SearchBar() {
               <input type="number" placeholder="0" ref={maxGroupSizeRef} />
             </div>
           </FormGroup>
-          <span className="search_icon" type="submit" onClick={searchHandler}>
+          <span className="search__icon" type="submit" onClick={searchHandler}>
             <i class="ri-search-line"></i>
           </span>
         </Form>
