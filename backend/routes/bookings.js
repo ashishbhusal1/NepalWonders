@@ -10,6 +10,6 @@ const router = express.Router();
 
 router.post("/", verifyUser, createBooking);
 router.get("/:id", verifyUser, getBooking);
-router.post("/", verifyAdmin, getAllBooking);
+router.get("/", verifyAdmin, getAllBooking);
 
 export default router;

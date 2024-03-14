@@ -28,7 +28,7 @@ const ServiceList = () => {
   return (
     <>
       {ServicesData.map((item, index) => (
-        <Col lg="3" md="3" sm="12" className="mb-4" key={index}>
+        <Col lg="3" md="6" sm="12" className="mb-4" key={index}>
           <ServiceCard item={item} />
         </Col>
       ))}

@@ -10,7 +10,7 @@ export const register = async (req, res) => {
     const newUser = new User({
       username: req.body.username,
       email: req.body.email,
-      password: req.body.password,
+      password: hash,
       photo: req.body.photo,
     });
     await newUser.save();
@@ -54,13 +54,13 @@ export const login = async (req, res) => {
     res
       .cookie("accessToken", token, {
         httpOnly: true,
-        expires: token.expiresIn,
+        expires: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000),
       })
       .status(200)
       .json({
         token,
         data: { ...rest },
-        role,
+        role
       });
   } catch (err) {
     res.status(500).json({ success: false, message: "Failed to login" });

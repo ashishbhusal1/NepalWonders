@@ -11,7 +11,7 @@ const SearchResultList = () => {
   console.log(data);
   return (
     <>
-      <CommonSection title={"Tour search reslut"} />
+      <CommonSection title={"Tour search result"} />
       <section>
         <Container>
           <Row>

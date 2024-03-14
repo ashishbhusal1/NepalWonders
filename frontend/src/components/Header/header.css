@@ -56,11 +56,12 @@
     left: 0;
     background: rgba(0,0,0,0.411);
     z-index: 999;
+    display: none;
   }
   .menu{
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: calc(100% -75%);
     height: 100%;
     background: #fff;
