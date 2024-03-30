@@ -59,7 +59,7 @@ export const getAllUser = async (req, res) => {
    //console.log(page)
 
    try {
-      const users = await User.find({})
+      const users = await User.find({}, {password:0})
 
       res.status(200).json({ success: true, message: 'Successfully', data: users })
    } catch (error) {
