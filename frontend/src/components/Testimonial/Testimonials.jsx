@@ -45,7 +45,7 @@ const Testimonials = () => {
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava01} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>John Doe</h6>
+               <h6 className='mb-0 mt-3'>Ashish Bhusal</h6>
                <p>Customer</p>
             </div>
          </div> 
@@ -61,7 +61,7 @@ const Testimonials = () => {
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava02} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>Lia Franklin</h6>
+               <h6 className='mb-0 mt-3'>Lubak Devkota</h6>
                <p>Customer</p>
             </div>
          </div> 
@@ -77,7 +77,7 @@ const Testimonials = () => {
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>John Doe</h6>
+               <h6 className='mb-0 mt-3'>Nabin Pandey</h6>
                <p>Customer</p>
             </div>
          </div> 
@@ -93,7 +93,7 @@ const Testimonials = () => {
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>John Doe</h6>
+               <h6 className='mb-0 mt-3'>Rudra Dai</h6>
                <p>Customer</p>
             </div>
          </div> 
