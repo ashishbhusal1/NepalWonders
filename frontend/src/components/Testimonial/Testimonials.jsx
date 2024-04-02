@@ -36,64 +36,55 @@ const Testimonials = () => {
 
    return <Slider {...settings}>
       <div className="testimonial py-4 px-3">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipt earum debitits recusandae voluptate illum expedita 
-            corrupti aliquid doloribus delectus?
+         <p>I used NepalWonders to plan a trip to Pokhara, filled with personalized adventures and breathtaking sights. The booking process was seamless, the travel tips invaluable, and the customer service top-notch, making for an unforgettable journey and the urge to explore more.
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava01} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>Ashish Bhusal</h6>
+               <h6 className='mb-0 mt-3'>John Doe</h6>
                <p>Customer</p>
             </div>
          </div> 
       </div>
 
       <div className="testimonial py-4 px-3">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipt earum debitits recusandae voluptate illum expedita 
-            corrupti aliquid doloribus delectus?
+      <p>I used NepalWonders to plan a trip to Gorkha, filled with personalized adventures and breathtaking sights. The booking process was seamless, the travel tips invaluable, and the customer service top-notch, making for an unforgettable journey and the urge to explore more.
+
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava02} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>Lubak Devkota</h6>
+               <h6 className='mb-0 mt-3'>Lia Franklin</h6>
                <p>Customer</p>
             </div>
          </div> 
       </div>
 
       <div className="testimonial py-4 px-3">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipt earum debitits recusandae voluptate illum expedita 
-            corrupti aliquid doloribus delectus?
+      <p>I used NepalWonders to plan a trip to Kathmandu, filled with personalized adventures and breathtaking sights. The booking process was seamless, the travel tips invaluable, and the customer service top-notch, making for an unforgettable journey and the urge to explore more.
+
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>Nabin Pandey</h6>
+               <h6 className='mb-0 mt-3'>John Doe</h6>
                <p>Customer</p>
             </div>
          </div> 
       </div>
 
       <div className="testimonial py-4 px-3">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipt earum debitits recusandae voluptate illum expedita 
-            corrupti aliquid doloribus delectus?
+      <p>I used NepalWonders to plan a trip to Chitwan, filled with personalized adventures and breathtaking sights. The booking process was seamless, the travel tips invaluable, and the customer service top-notch, making for an unforgettable journey and the urge to explore more.
+
          </p>
 
          <div className='d-flex align-items-center gap-4 mt-3'>
             <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
             <div>
-               <h6 className='mb-0 mt-3'>Rudra Dai</h6>
+               <h6 className='mb-0 mt-3'>John Doe</h6>
                <p>Customer</p>
             </div>
          </div> 
