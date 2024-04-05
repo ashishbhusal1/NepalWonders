@@ -6,6 +6,7 @@
 .login__img img {
    width     : 70%;
    object-fit: contain;
+
 }
 
 .login__form {
@@ -30,6 +31,7 @@
 
 .login__form .user img {
    width: 100%;
+   filter: hue-rotate(110deg) brightness(110%) saturate(100%);
 }
 
 .login__form h2 {

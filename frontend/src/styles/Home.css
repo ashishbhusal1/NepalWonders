@@ -1,6 +1,6 @@
 :root {
-   --primary-color     : #ff7e01;
-   --secondary-color   : #faa935;
+   --secondary-color     : hsl(151, 69%, 51%);
+   --primary-color   :hsl(139, 71%, 39%);
    --heading-color     : #0b2727;
    --text-color        : #6e7074;
    --font-name         : "Montserrat", sans-serif;
