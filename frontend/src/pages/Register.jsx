@@ -1,42 +1,59 @@
 import React, { useState, useContext } from "react";
 import { Container, Row, Col, Form, FormGroup, Button } from "reactstrap";
-import "../styles/login.css";
 import { Link, useNavigate } from "react-router-dom";
-import registerImg from "../assets/images/login.png";
-import userIcon from "../assets/images/user.png";
 import { AuthContext } from "../context/AuthContext";
 import { BASE_URL } from "../utils/config";
+import registerImg from "../assets/images/login.png";
+import userIcon from "../assets/images/user.png";
 
 const Register = () => {
   const [credentials, setCredentials] = useState({
-    userName: "",
+    username: "",
     email: "",
     password: "",
   });
 
-  const [emailError, setEmailError] = useState(false); // State to track email format error
-  const [passwordError, setPasswordError] = useState(false); // State to track password format error
+  const [usernameError, setUsernameError] = useState(false);
+  const [emailError, setEmailError] = useState(false);
+  const [passwordError, setPasswordError] = useState(false);
 
   const { dispatch } = useContext(AuthContext);
   const navigate = useNavigate();
 
-  const handleChange = (e) => {
+  const checkUsernameExists = async (username) => {
+    try {
+      const res = await fetch(`${BASE_URL}/auth/check-username`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ username }),
+      });
+      const result = await res.json();
+      return result.exists;
+    } catch (error) {
+      console.error("Error checking username:", error);
+      return false;
+    }
+  };
+
+
+  const handleChange = async (e) => {
     const { id, value } = e.target;
     let isValid = true;
 
-    // Email validation
-    if (id === "email") {
-      isValid = /\S+@\S+\.\S+/.test(value); // Regex for basic email validation
-      setEmailError(!isValid); // Update emailError state based on validity
+    if (id === "username") {
+      const exists = await checkUsernameExists(value);
+      setUsernameError(exists);
+      isValid = !exists;
+    } else if (id === "email") {
+      isValid = /\S+@\S+\.\S+/.test(value);
+      setEmailError(!isValid);
+    } else if (id === "password") {
+      isValid = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(value);
+      setPasswordError(!isValid);
     }
 
-    // Password validation
-    if (id === "password") {
-      isValid = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(value); // Regex for password validation
-      setPasswordError(!isValid); // Update passwordError state based on validity
-    }
-
-    // Update state only if the input is valid
     if (isValid) {
       setCredentials((prev) => ({ ...prev, [id]: value }));
     }
@@ -88,8 +105,15 @@ const Register = () => {
                       id="username"
                       onChange={handleChange}
                       required
+                      style={{ border: usernameError ? "1px solid red" : "" }}
                     />
+                    {usernameError && (
+                      <span style={{fontSize:'13px', color:'red'}}>
+                        Username already exists. Please choose another one.
+                      </span>
+                    )}
                   </FormGroup>
+
                   <FormGroup>
                     <input
                       type="email"
@@ -97,7 +121,7 @@ const Register = () => {
                       id="email"
                       onChange={handleChange}
                       required
-                      style={{ border: emailError ? "1px solid red" : "" }} // Set border color based on emailError state
+                      style={{ border: emailError ? "1px solid red" : "" }}
                     />
                   </FormGroup>
                   <FormGroup>
@@ -109,14 +133,11 @@ const Register = () => {
                       required
                       pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}"
                       title="Password must be at least 8 characters long and contain at least one letter and one digit."
-                      style={{ border: passwordError ? "1px solid red" : "" }} // Set border color based on passwordError state
+                      style={{ border: passwordError ? "1px solid red" : "" }}
                     />
                   </FormGroup>
 
-                  <Button
-                    className="btn secondary__btn auth__btn"
-                    type="submit"
-                  >
+                  <Button className="btn secondary__btn auth__btn" type="submit">
                     Create Account
                   </Button>
                 </Form>

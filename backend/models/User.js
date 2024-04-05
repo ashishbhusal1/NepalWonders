@@ -16,11 +16,9 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-
     photo: {
       type: String,
     },
-
     role: {
       type: String,
       default: "user",
@@ -28,5 +26,8 @@ const userSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+
+// Create a unique index for the username field
+userSchema.index({ username: 1 }, { unique: true });
 
 export default mongoose.model("User", userSchema);
