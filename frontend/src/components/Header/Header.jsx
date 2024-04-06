@@ -44,10 +44,14 @@ const Header = () => {
    useEffect(() => {
       stickyHeaderFunc()
 
-      return window.removeEventListener('scroll', stickyHeaderFunc)
-   })
+      return () => window.removeEventListener('scroll', stickyHeaderFunc)
+   }, [])
 
    const toggleMenu = () => menuRef.current.classList.toggle('show__menu')
+
+   const goToHomePage = () => {
+      navigate('/')
+   }
 
    return (
       <header className='header' ref={headerRef}>
@@ -55,7 +59,7 @@ const Header = () => {
             <Row>
                <div className="nav__wrapper d-flex align-items-center justify-content-between">
                   {/* ========== LOGO ========== */}
-                  <div className="logo">
+                  <div className="logo" onClick={goToHomePage}>
                      <img src={Logo} alt="" />
                   </div>
                   {/* ========================== */}
@@ -89,7 +93,7 @@ const Header = () => {
                      </div>
 
                      <span className="mobile__menu" onClick={toggleMenu}>
-                        <i class="ri-menu-line"></i>
+                        <i className="ri-menu-line"></i>
                      </span>
                   </div>
                </div>
