@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/home.css";
+import "../styles/Home.css";
 import { Container, Row, Col, CardSubtitle } from "reactstrap";
 import heroImg from "../assets/images/hero-img01.jpg";
 import heroImg02 from "../assets/images/hero-img02.jpg";
@@ -38,7 +38,6 @@ const Home = () => {
                   landscapes and vibrant culture. It's about trekking through
                   the majestic Himalayas, exploring ancient temples in
                   Kathmandu, and experiencing the warmth of Nepali hospitality.
-                  
                 </p>
               </div>
             </Col>
@@ -103,7 +102,9 @@ const Home = () => {
                   With our all experience <br /> we will serve you
                 </h2>
                 <p>
-                Our tour website: a hub for travelers seeking inspiration, <br /> detailed guides, and easy booking to destinations worldwide, <br /> simplifying travel planning.{" "}
+                  Our tour website: a hub for travelers seeking inspiration,{" "}
+                  <br /> detailed guides, and easy booking to destinations
+                  worldwide, <br /> simplifying travel planning.{" "}
                 </p>
               </div>
 
