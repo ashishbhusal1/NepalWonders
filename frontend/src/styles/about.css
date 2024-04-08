@@ -28,13 +28,38 @@
   .partners-section h1,
   .testimonials-section h1,
   .get-in-touch-section h1 {
-    color: #2cd885; /* Greenish header color */
+    color      : black /* Greenish header color */
   }
   
   .testimonials-section {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+  div.logos{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  div.logos > img{
+    height: 150px;
+  }
+  div.partners-content{
+    border-radius: 20px;
+  }
+  .customer-subtitle {
+    font-size  : 2rem;
+    font-weight: 500;
+    color      : white;
+    font-family: var(--subtitle-font-name);
+    background-color: var(--secondary-color);
+    width: max-content;
+    padding: 0px 0.5rem;
+    border-radius:  50px;
+ }
+ .story-section{
+  margin-top: 40px;
+ }
   
   /* Responsive styles */
   @media (min-width: 768px) {
@@ -43,4 +68,5 @@
       margin: 0 auto;
     }
   }
+
   
