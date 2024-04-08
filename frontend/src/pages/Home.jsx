@@ -14,10 +14,34 @@ import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
 import Testimonials from "../components/Testimonial/Testimonials";
 import NewsLetter from "../shared/Newsletter";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <>
+      {/* ---------------SEo-------------- */}
+      <Helmet>
+        {/* Meta tags */}
+        <title>NepalWonders - Explore the Beauty of Nepal</title>
+        <meta
+          name="description"
+          content="NepalWonders is your gateway to discovering the rich culture, stunning landscapes, and adventure opportunities in Nepal. Book your dream vacation today and embark on unforgettable adventures."
+        />
+        <meta
+          name="keywords"
+          content="NepalWonders, Nepal tours, Nepal travel, Nepal vacations, tour packages, adventure tours, cultural tours"
+        />
+        <meta name="robots" content="index, follow" />
+        {/* Open Graph meta tags */}
+        <meta
+          property="og:title"
+          content="NepalWonders - Explore the Beauty of Nepal"
+        />
+        <meta
+          property="og:description"
+          content="NepalWonders is your gateway to discovering the rich culture, stunning landscapes, and adventure opportunities in Nepal. Book your dream vacation today and embark on unforgettable adventures."
+        />
+      </Helmet>
       {/* ========== HERO SECTION ========== */}
 
       <section>
