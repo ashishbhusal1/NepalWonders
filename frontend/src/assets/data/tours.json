@@ -127,5 +127,18 @@
 
     "photo": "/tour-images/tour-img02.jpg",
     "featured": true
+  },
+  {
+    "title": "Shaktikhor Waterfall",
+    "city": "Chitwan",
+    "address": "Somewhere in Nepal",
+    "distance": 32,
+    "price": 10,
+    "maxGroupSize": 10,
+    "desc": "Shaktikhor Waterfall is a stunning natural beauty that can be seen in the town of Shaktikhor in the Chitwan District of southern Nepal. Both local and foreign visitors to Chitwan National Park enjoy stopping at this waterfall, also known as Shaktikhor Jharana in Nepali.",
+    "reviews": [],
+
+    "photo": "/tour-images/2019-11-05.jpg",
+    "featured": true
   }
 ]
