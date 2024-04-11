@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect, useContext } from "react";
 import "../styles/tour-details.css";
-// import tourData from '../assets/data/tours'
 import { Container, Row, Col, Form, ListGroup } from "reactstrap";
 import { useParams } from "react-router-dom";
 import calculateAvgRating from "../utils/avgRating";
@@ -64,6 +63,8 @@ const TourDetails = () => {
         return alert(result.message);
       }
       alert(result.message);
+      // Reload the page
+      window.location.reload();
     } catch (error) {
       alert(error.message);
     }
