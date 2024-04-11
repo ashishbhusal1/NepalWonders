@@ -152,7 +152,7 @@ const TourDetails = () => {
                       <input
                         type="text"
                         ref={reviewMsgRef}
-                        placeholder="share your thoughts"
+                        placeholder="Share your thoughts"
                         required
                       />
                       <button
