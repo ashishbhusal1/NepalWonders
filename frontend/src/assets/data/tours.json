@@ -140,5 +140,44 @@
 
     "photo": "/tour-images/2019-11-05.jpg",
     "featured": true
+  },
+  {
+    "title": "Jungle Safari, chitwan",
+    "city": "Chitwan",
+    "address": "Somewhere in Nepal",
+    "distance": 500,
+    "price": 99,
+    "maxGroupSize": 8,
+    "desc": "Simplify your visit to the Chitwan National Park by joining a guided tour. The national park entrance fee is included, and you’ll enjoy a range of safari and cultural activities, including a Jeep safari, canoe ride, jungle walk, Tharu cultural show, and more. See one-horned rhinoceros and maybe even Royal Bengal tigers. Wildlife enthusiasts will love touring Chitwan",
+    "reviews": [],
+
+    "photo": "/tour-images/tour-jungle.jpg",
+    "featured": false
+  },
+  {
+    "title": "Towernight Stay, Chitwan",
+    "city": "Chitwan",
+    "address": "Somewhere in Nepal",
+    "distance": 500,
+    "price": 99,
+    "maxGroupSize": 8,
+    "desc": "While most accommodation at Nepal’s Chitwan National Park is outside the boundaries of the park itself, with this package you can enjoy the sights and sounds only available when sleeping deep within the jungle. You’ll stay in a jungle tower, a wooden structure with rooms, bathrooms, electricity, and beautiful views. Look out for birds and wildlife from on high, including rhinos, deer, and tigers.",
+    "reviews": [],
+
+    "photo": "/tour-images/junglestay.jpg",
+    "featured": false
+  },
+  {
+    "title": "Annapurna Base Camp, Pokhara",
+    "city": "Pokhara",
+    "address": "Somewhere in Nepal",
+    "distance": 500,
+    "price": 99,
+    "maxGroupSize": 8,
+    "desc": "Annapurna Base Camp Trek is one of the preferred trekking destinations in Nepal one of the best trekking trails also known as Ghorepani Poonhill Trek suitable for moderate trekkers also referred to as ABC. Tourists, who enjoy experiencing the mountains, walking on the sloppy lands, and feeling the pleasant climate, choose this region as their ultimate trekking destination. The Annapurna Base Camp Trek starts with a short drive from Pokhara to Nayapul from where the trekking starts and goes through Ulleri, Ghorepani, Poonhill, Tadapani, Chhomrong, Bamboo, and Deurali before reaching ABC. Waking up at ABC will be one of the most memorable mornings of your life since the oval shape of ABC is surrounded by mountains and offers a magnificent sunrise. On the way back the trek will make a detour to Jhinu Danda, from where you can enjoy the natural hot springs in the Modi Khola River. ",
+    "reviews": [],
+
+    "photo": "/tour-images/tour-annapurna.jpg",
+    "featured": false
   }
 ]
