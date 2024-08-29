@@ -40,8 +40,10 @@ app.use("/api/v1/users", userRoute);
 app.use("/api/v1/review", reviewRoute);
 app.use("/api/v1/booking", bookingRoute);
 
-// Connect to MongoDB
-connect();
+// Import and use the authRoute for checking username availability
+app.use("/api/v1/auth", authRoute); // Use the auth route for username availability
 
-// Instead of app.listen, export the app for Vercel
-export default app;
+app.listen(port, () => {
+  connect();
+  console.log("Server listening on port", port);
+});

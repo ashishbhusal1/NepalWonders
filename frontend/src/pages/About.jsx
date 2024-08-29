@@ -1,13 +1,13 @@
 import React from "react";
 import { Container } from "reactstrap";
-import "../styles/about.css";
+import "../styles/About.css";
 import Testimonials from "../components/Testimonial/Testimonials";
-import customer1 from '../assets/images/customer-logos/ronb.png';
-import customer2 from '../assets/images/customer-logos/ghumante.png';
-import customer3 from '../assets/images/customer-logos/kantipur.png';
-import customer4 from '../assets/images/customer-logos/amanah.png';
-import customer5 from '../assets/images/customer-logos/nepal.png';
-import customer6 from '../assets/images/customer-logos/plane.png';
+import customer1 from "../assets/images/customer-logos/ronb.png";
+import customer2 from "../assets/images/customer-logos/ghumante.png";
+import customer3 from "../assets/images/customer-logos/kantipur.png";
+import customer4 from "../assets/images/customer-logos/amanah.png";
+import customer5 from "../assets/images/customer-logos/nepal.png";
+import customer6 from "../assets/images/customer-logos/plane.png";
 
 const About = () => {
   return (
@@ -57,12 +57,12 @@ const About = () => {
         <div className="partners-content bg-greenish-light p-4 rounded-lg">
           {/* Partner Logos here */}
           <div className="logos">
-          <img src={customer1} alt="" />
-          <img src={customer2} alt="" />
-          <img src={customer3} alt="" />
-          <img src={customer4} alt="" />
-          <img src={customer5} alt="" />
-          <img src={customer6} alt="" />
+            <img src={customer1} alt="" />
+            <img src={customer2} alt="" />
+            <img src={customer3} alt="" />
+            <img src={customer4} alt="" />
+            <img src={customer5} alt="" />
+            <img src={customer6} alt="" />
           </div>
         </div>
       </div>
@@ -72,8 +72,6 @@ const About = () => {
         <h1 className="customer-subtitle">What We Say About NepalWonders</h1>
         <Testimonials />
       </div>
-
-      
     </Container>
   );
 };
