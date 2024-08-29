@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
-import "../styles/About.css";
+import "../styles/about.css";
 import Testimonials from "../components/Testimonial/Testimonials";
 import customer1 from "../assets/images/customer-logos/ronb.png";
 import customer2 from "../assets/images/customer-logos/ghumante.png";
